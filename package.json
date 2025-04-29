@@ -8,7 +8,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "cores": "^0.8.5",
     "cors": "^2.8.5",
@@ -16,5 +15,18 @@
     "mongodb": "^6.10.0",
     "uuid": "^11.0.3",
     "uuidv4": "^6.2.13"
-  }
+  },
+  "bin": {
+    "server": "bin/account.js"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaoZiJian/LazyfishKingServer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RaoZiJian/LazyfishKingServer/issues"
+  },
+  "homepage": "https://github.com/RaoZiJian/LazyfishKingServer#readme",
+  "description": ""
 }
